@@ -1,0 +1,160 @@
+body{
+    background-color: #49312B
+}
+html{
+    color: white;
+    font-family: 'Kalam', cursive;
+}
+
+
+header {
+    width: 90%;
+    border: 1px  solid burlywood;
+    justify-content: flex-end;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+main {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    
+
+}
+
+aside{
+   width: 25%;
+   max-height:  560px;
+   border: 1px solid burlywood;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   overflow-y: auto;
+}
+
+.content {
+    width: 70%;
+    flex-direction: column;
+    max-height: 560px;
+    overflow: auto;
+}
+
+
+
+footer{
+    border: 1px solid burlywood;
+    height: 50px;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.form{
+    width: 15%;
+    height: 200px;
+    border: 1px solid burlywood;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+
+label{
+    color: whitesmoke;
+}
+
+
+header a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: wheat;
+}
+
+form { 
+    border: 1px solid burlywood;
+    display: flex;
+    margin: 0 auto;
+    width: 20%;
+    flex-direction: column;
+    padding: 20px;
+    margin-top:50px;
+}
+
+input , .box , select{
+    margin: 10px;
+}
+ 
+.box-1{
+    margin-top:30px;
+    display: flex;
+    align-items: center;
+}
+
+#submit {
+    margin-left: 100px;
+}
+
+.title {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    max-height: 150px;
+    border: 1px solid burlywood;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.discription{
+    border: 1px solid burlywood;
+    width: 95%;
+    height: 150px;
+    margin: 5px auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.item_bloger{
+    display: flex;
+    width: 95%;
+    margin: 5px auto;
+    align-items: center;
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+
+.photo {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+
+
+}
+
+h2{
+    margin: 10px auto;
+}
+
+.in{
+    margin-top: 10px;
+}
